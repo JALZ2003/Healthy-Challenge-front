@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 
 export default function Main() {
     return (
-        <div className="flex flex-col h-full w-full">
+        <main className="flex flex-col h-screen w-screen justify-between">
             <Navbar />
             <Outlet />
             <Footer />
-        </div>
+        </main>
     )
 }

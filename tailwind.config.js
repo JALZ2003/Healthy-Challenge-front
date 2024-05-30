@@ -10,7 +10,10 @@ module.exports = {
           poppins: ['Poppins', 'sans-serif'],
           roboto: ['Roboto', 'sans-serif']
         }
-      }
+      },
+        screens: {
+			'phone': '361px'
+		}
   },
   variants: {},
   plugins: []
